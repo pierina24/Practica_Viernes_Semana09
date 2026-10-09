@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'data/productos_estaticos.dart';
 
 void main() {
-  runApp(const MiAplicacion());
+  runApp(const MyApp());
 }
 
-class MiAplicacion extends StatelessWidget {
-  const MiAplicacion({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
