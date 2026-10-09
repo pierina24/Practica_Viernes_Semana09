@@ -1,0 +1,86 @@
+
+import '../models/producto.dart';
+
+// 3. LISTADO ESTÁTICO DE 10 PRODUCTOS
+const List<Producto> productos = [
+  Producto(
+    id: 1,
+    nombre: 'Arroz',
+    categoria: 'Abarrotes',
+    precio: 4.50,
+    stock: 100,
+    disponible: true,
+  ),
+  Producto(
+    id: 2,
+    nombre: 'Aceite',
+    categoria: 'Aceites',
+    precio: 8.50,
+    stock: 50,
+    disponible: true,
+  ),
+  Producto(
+    id: 3,
+    nombre: 'Azúcar',
+    categoria: 'Abarrotes',
+    precio: 4.00,
+    stock: 80,
+    disponible: true,
+  ),
+  Producto(
+    id: 4,
+    nombre: 'Leche',
+    categoria: 'Lácteos',
+    precio: 4.20,
+    stock: 60,
+    disponible: true,
+  ),
+  Producto(
+    id: 5,
+    nombre: 'Fideos',
+    categoria: 'Abarrotes',
+    precio: 3.50,
+    stock: 90,
+    disponible: true,
+  ),
+  Producto(
+    id: 6,
+    nombre: 'Atún',
+    categoria: 'Conservas',
+    precio: 5.80,
+    stock: 40,
+    disponible: true,
+  ),
+  Producto(
+    id: 7,
+    nombre: 'Galletas',
+    categoria: 'Snacks',
+    precio: 2.50,
+    stock: 70,
+    disponible: true,
+  ),
+  Producto(
+    id: 8,
+    nombre: 'Sal',
+    categoria: 'Abarrotes',
+    precio: 1.50,
+    stock: 35,
+    disponible: true,
+  ),
+  Producto(
+    id: 9,
+    nombre: 'Café',
+    categoria: 'Bebidas',
+    precio: 12.90,
+    stock: 25,
+    disponible: true,
+  ),
+  Producto(
+    id: 10,
+    nombre: 'Detergente',
+    categoria: 'Limpieza',
+    precio: 6.50,
+    stock: 0,
+    disponible: false,
+  ),
+];
